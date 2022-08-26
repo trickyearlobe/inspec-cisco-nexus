@@ -1,0 +1,10 @@
+name: inspec-cisco-nexus
+title: Resource pack for Cisco Nexus switches
+maintainer: Richard Nixon
+copyright: Richard Nixon
+copyright_email: richard.nixon@btinternet.com
+license: Apache-2.0
+summary: An Inspec resource pack for Cisco Nexus switches
+version: 0.1.0
+supports:
+  platform: os

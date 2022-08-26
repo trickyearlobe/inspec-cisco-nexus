@@ -1,0 +1,40 @@
+# OS annoyances and tempfiles
+.DS_Store
+Thumbs.db
+*.tmp
+~*
+~*
+*.swp
+*.bak
+*.old
+
+# Since this is a resource pack, don't include the controls
+/controls/*.rb
+
+# Dont include the generated VuePress site
+# It will only exist at the root of the gh-pages branch
+/docs/src/.vuepress/dist
+
+# Code editors
+/.vscode/
+/.idea/
+
+# Used by dotenv library to load environment variables.
+.env
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ruby version stuff
+.rbenv
+.rbenv-version
+Gemfile.lock
+.ruby-version
+.ruby-gemset
+.rvmrc
+
+# Misc
+.vagrant
+*.zip
+*.tar.gz
+*.tgz

@@ -1,0 +1,19 @@
+{
+  "name": "inspec-cisco-nexus",
+  "version": "0.0.1",
+  "description": "Inspec resource pack for nexus switches",
+  "main": "index.js",
+  "authors": {
+    "name": "Richard Nixon",
+    "email": "richard.nixon@btinternet.com"
+  },
+  "repository": "https://github.com/trickyearlobe/inspec-cisco-nexus",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
