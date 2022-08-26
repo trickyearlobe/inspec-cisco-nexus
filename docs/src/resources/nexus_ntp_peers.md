@@ -30,6 +30,12 @@ describe nexus_ntp_peers.where{ reachability == 0 } do
   its('remotes') {should eq []}
 end
 ```
+
+::: tip
+Filtering a plural resource to contain only failed elements enables us to get a list if we compare the field to the empty array [].
+The example above might show the remotes of unreachable timeservers as ['192.168.0.55', '94.7.89.34']
+:::
+
 ## Properties
 
 | Singular      | Plural         | Type    | Description                                                                                                |

@@ -17,9 +17,9 @@ module.exports = {
 
   //  Theme configuration, here is the default theme configuration for VuePress.
   themeConfig: {
-    repo: 'github.io/trickyearlobe/inspec-cisco-nexus',
+    repo: 'trickyearlobe/inspec-cisco-nexus',
     editLinks: false,
-    docsDir: 'docs',
+    docsDir: '',
     editLinkText: '',
     lastUpdated: false,
     nav: [
@@ -60,11 +60,13 @@ module.exports = {
           '/inspec/',
           '/inspec/setup',
           '/inspec/exampleProfile',
+          '/resources/',
       ],
       '/resources/': [
           '/resources/',
           '/resources/nexus_command',
           '/resources/nexus_ntp_peers',
+          '/inspec/exampleProfile',
       ]
     }
   },
@@ -75,6 +77,6 @@ module.exports = {
     '@vuepress/plugin-medium-zoom',
   ],
   markdown: {
-    lineNumbers: false,
+    lineNumbers: true,
   }
 }
