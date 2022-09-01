@@ -65,6 +65,7 @@ module.exports = {
       '/resources/': [
           '/resources/',
           '/resources/nexus_command',
+          '/resources/nexus_features',
           '/resources/nexus_ntp_peers',
           '/inspec/exampleProfile',
       ]

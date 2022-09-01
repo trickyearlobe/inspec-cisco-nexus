@@ -18,7 +18,7 @@ describe nexus_features.where(name:"eigrp",state:"enabled") do
 end
 ```
 
-Skipping a control if a resource is not enabled
+Skipping a control if a feature is not enabled
 
 ```ruby
 control "EIGRP - test control" do
