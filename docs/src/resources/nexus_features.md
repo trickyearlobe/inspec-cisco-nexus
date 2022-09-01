@@ -6,7 +6,7 @@
 
 `nexus_features` is an Inspec plural resource which retrieves the optional licenced features
 of the Nexus switch. In some cases, a feature may have many instances and so we chose to
-represent this with a plural resource than can use a `.where()` or `.where{}` resource.
+represent this with a plural resource than can use a `.where()` or `.where{}` filter.
 
 ## Examples
 
@@ -45,5 +45,5 @@ end
 |               | entries        | array   | An array of hashes that contain the data for each feature. This data can be iterated in a loop             |
 | instance      | instances      | string  | The instance number of the feature (used when a licence may grant a quantity)                              |
 | name          | names          | string  | The name of the feature                                                                                    |
-| state         | states         | string  | Whether the resource is `enabled`, `enabled(not-running)` or `disabled`                                    |
-| reason        | reasons        | integer | The reason a feature is in the state. eg. `feature never enabled`, `SUCCESS`                               |
+| state         | states         | string  | Whether the resource is:-<br>* `enabled`<br>* `enabled(not-running)`<br>* `disabled`                       |
+| reason        | reasons        | integer | The reason a feature is in the state:-<br>* `feature never enabled`<br>* `SUCCESS`                         |
